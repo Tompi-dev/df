@@ -863,6 +863,29 @@ textarea.ta:focus{border-color:var(--pr)}
 <!-- ============================================================
      S4: TEACHABLE MACHINE — ИНСТРУМЕНТ
      ============================================================ -->
+<!-- ============================================================
+     S3b: ВИДЕО — ИИ В ДЕЙСТВИИ
+     ============================================================ -->
+<section class="slide vid-slide" id="s3b" data-vid-id="CbFli-OqVKU">
+  <div class="vid-slide-bg"></div>
+  <iframe class="vid-fs-frame" id="vf-s3b" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+  <div class="vid-overlay">
+    <div class="vid-badge-row">
+      <span class="vid-counter">🎬 Видео</span>
+      <span class="vid-chip">Компьютерное зрение</span>
+    </div>
+    <div class="vid-title-block">
+      <div class="vid-big-icon">👁️</div>
+      <div>
+        <div class="vid-main-title">ИИ видит мир</div>
+        <div class="vid-sub">Компьютерное зрение в действии</div>
+      </div>
+    </div>
+    <div class="vid-next-hint">↓ продолжить</div>
+  </div>
+</section>
 <section class="slide" id="s4">
   <div class="inn">
     <span class="ey a1">Теория · Инструмент</span>
@@ -928,143 +951,6 @@ textarea.ta:focus{border-color:var(--pr)}
 
 <!-- ============================================================
      S5: СВЯЗЬ С ИНДУСТРИЕЙ
-     ============================================================ -->
-<section class="slide" id="s5">
-  <div class="inn">
-    <span class="ey a1">Теория · Индустрия</span>
-    <h2 class="tlg a2" style="margin-top:12px">От стола до <span style="color:var(--pr)">Теслы</span></h2>
-    <div class="dv a2"></div>
-    <p class="bmd a3" style="color:#555;margin-bottom:28px">То, что ты делаешь сегодня руками — это та же технология, что управляет беспилотными автомобилями. Разница только в масштабе.</p>
-    <div class="a3" style="overflow-x:auto">
-      <table class="comp-table">
-        <thead>
-          <tr><th>Продукт</th><th>Как обучали ИИ</th><th>Аналог в уроке</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>🚗 Tesla Autopilot</td><td>Миллиарды часов видео с дорог + разметка вручную</td><td>Раунд 3 — объекты на столе</td></tr>
-          <tr><td>📱 Face ID (Apple)</td><td>1000 инфракрасных точек на лице владельца</td><td>Раунд 1 — эмоции лица</td></tr>
-          <tr><td>🏥 ИИ-рентген</td><td>Миллионы снимков с диагнозами от врачей</td><td>Общий принцип: датасет = учитель</td></tr>
-          <tr><td>🎮 Xbox Kinect</td><td>Тысячи поз игроков, записанных в студии</td><td>Раунд 2 — жесты рук</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="g3 a5" style="margin-top:28px">
-      <div class="card icard" onclick="toggleCard(this,10)">
-        <div style="font-size:1.8rem;margin-bottom:10px">🚗</div>
-        <div class="tmd" style="margin-bottom:8px">Tesla</div>
-        <p class="bsm" style="color:#666">Каждый Autopilot-километр — это новый обучающий пример. 1.5 млн машин = 1.5 млн датасетов одновременно.</p>
-        <div class="extra" style="border-top-color:#e0deff">
-          <p style="font-size:.83rem;color:#555">Tesla использует так называемое «теневое обучение» — когда автопилот не активен, машина всё равно записывает что бы она сделала, а потом сравнивает с действиями водителя.</p>
-          <span class="xp-chip">+10 XP получено!</span>
-        </div>
-      </div>
-      <div class="card icard" onclick="toggleCard(this,10)">
-        <div style="font-size:1.8rem;margin-bottom:10px">📱</div>
-        <div class="tmd" style="margin-bottom:8px">Face ID</div>
-        <p class="bsm" style="color:#666">iPhone проецирует 30 000 невидимых точек на лицо. Это твоя «точечная карта» — уникальнее, чем отпечаток пальца.</p>
-        <div class="extra" style="border-top-color:#e0deff">
-          <p style="font-size:.83rem;color:#555">Face ID обновляет свою модель каждый раз, когда ты надеваешь или снимаешь очки, отращиваешь бороду, накладываешь макияж. Это называется адаптация в реальном времени.</p>
-          <span class="xp-chip">+10 XP получено!</span>
-        </div>
-      </div>
-      <div class="card icard" onclick="toggleCard(this,10)">
-        <div style="font-size:1.8rem;margin-bottom:10px">🏥</div>
-        <div class="tmd" style="margin-bottom:8px">ИИ-рентген</div>
-        <p class="bsm" style="color:#666">Google DeepMind обнаруживает рак груди с точностью на 11.5% выше, чем у лучших врачей. Датасет: 29 000 снимков.</p>
-        <div class="extra" style="border-top-color:#e0deff">
-          <p style="font-size:.83rem;color:#555">Несмотря на точность, ИИ в медицине всегда работает в паре с врачом. Почему? Потому что ошибки в датасете могут быть систематическими — ИИ может быть умнее врача в среднем, но хуже в редких случаях.</p>
-          <span class="xp-chip">+10 XP получено!</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     S6: ПРОМПТЫ — ОПИСАНИЕ ПРОЕКТОВ
-     ============================================================ -->
-<section class="slide" id="s6">
-  <div class="inn">
-    <span class="ey a1">Промпты · Описание</span>
-    <h2 class="tlg a2" style="margin-top:12px">Готовые <span style="color:var(--pr)">промпты</span></h2>
-    <div class="dv a2"></div>
-    <p class="bmd a3" style="color:#555;margin-bottom:28px">Используй эти промпты, чтобы объяснить кому-то что ты создал или получить помощь от ИИ-ассистента.</p>
-
-    <div class="prompt-box ru a3">
-      <div class="lang-flag">🇷🇺 Русский · Объяснение проекта</div>
-      <div class="prompt-text">Я только что обучил ИИ-детектор эмоций на Teachable Machine. Он умеет распознавать 3 состояния лица (радость, нейтральность, злость) с точностью около [X]%. Модель работает в реальном времени через веб-камеру. Помоги мне придумать 3 практических способа применить этот детектор — например в образовании, играх или приложениях для здоровья.</div>
-      <button class="cpb" onclick="copyText(this,'Я только что обучил ИИ-детектор эмоций на Teachable Machine. Он умеет распознавать 3 состояния лица (радость, нейтральность, злость) с точностью около [X]%. Модель работает в реальном времени через веб-камеру. Помоги мне придумать 3 практических способа применить этот детектор — например в образовании, играх или приложениях для здоровья.')">📋 Скопировать</button>
-    </div>
-
-    <div class="prompt-box en a4">
-      <div class="lang-flag" style="color:var(--green)">🇬🇧 English · Project Description</div>
-      <div class="prompt-text">I just trained an emotion detector AI using Teachable Machine. It can recognize 3 facial states (happiness, neutral, anger) with approximately [X]% accuracy. The model works in real-time through a webcam. Help me come up with 3 practical applications for this detector — for example in education, gaming, or health apps.</div>
-      <button class="cpb" onclick="copyText(this,'I just trained an emotion detector AI using Teachable Machine. It can recognize 3 facial states (happiness, neutral, anger) with approximately [X]% accuracy. The model works in real-time through a webcam. Help me come up with 3 practical applications for this detector — for example in education, gaming, or health apps.')" style="background:var(--green);color:var(--dk)">📋 Скопировать</button>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     S7: ПРОМПТЫ — ОТЛАДКА И УЛУЧШЕНИЕ
-     ============================================================ -->
-<section class="slide s7-bg" id="s7">
-  <div class="inn">
-    <span class="ey a1" style="color:var(--cv-blue)">Промпты · Улучшение</span>
-    <h2 class="tlg a2" style="margin-top:12px;color:#fff">Промпты для <span style="color:var(--ac)">отладки</span></h2>
-    <div class="dv a2"></div>
-
-    <div class="prompt-box a3" style="background:rgba(255,255,255,.05);border-color:rgba(0,180,216,.3);border-left:4px solid var(--cv-blue)">
-      <div class="lang-flag" style="color:var(--cv-blue)">🇷🇺 Русский · Отладка модели</div>
-      <div class="prompt-text" style="color:rgba(255,255,255,.85)">Моя Teachable Machine-модель путает жест 👍 и ✌️. Точность для класса «Лайк» — около 60%, для «Победа» — около 55%. Я записал по 35 примеров каждого жеста, все при одинаковом освещении и с одной позиции. Объясни почему модель ошибается и дай 5 конкретных советов как улучшить датасет.</div>
-      <button class="cpb" onclick="copyText(this,'Моя Teachable Machine-модель путает жест 👍 и ✌️. Точность для класса «Лайк» — около 60%, для «Победа» — около 55%. Я записал по 35 примеров каждого жеста, все при одинаковом освещении и с одной позиции. Объясни почему модель ошибается и дай 5 конкретных советов как улучшить датасет.')">📋 Скопировать</button>
-    </div>
-
-    <div class="prompt-box a4" style="background:rgba(255,255,255,.05);border-color:rgba(46,213,115,.3);border-left:4px solid var(--green)">
-      <div class="lang-flag" style="color:var(--green)">🇬🇧 English · Model Debugging</div>
-      <div class="prompt-text" style="color:rgba(255,255,255,.85)">My Teachable Machine model confuses 👍 and ✌️ gestures. Accuracy for "Like" class is ~60%, for "Victory" ~55%. I recorded about 35 samples each, all with the same lighting and one camera position. Explain why the model is making errors and give me 5 specific tips to improve the dataset.</div>
-      <button class="cpb" onclick="copyText(this,'My Teachable Machine model confuses 👍 and ✌️ gestures. Accuracy for Like class is ~60%, for Victory ~55%. I recorded about 35 samples each, all with the same lighting and one camera position. Explain why the model is making errors and give me 5 specific tips to improve the dataset.')" style="background:var(--green);color:var(--dk)">📋 Скопировать</button>
-    </div>
-
-    <div class="prompt-box a5" style="background:rgba(255,255,255,.05);border-color:rgba(255,165,2,.3);border-left:4px solid var(--orange)">
-      <div class="lang-flag" style="color:var(--orange)">🇷🇺 Русский · Идеи применения</div>
-      <div class="prompt-text" style="color:rgba(255,255,255,.85)">У меня есть детектор жестов (👍 👎 ✌️) обученный на Teachable Machine. Придумай 10 нестандартных применений этого детектора для школьников 12–17 лет. Идеи должны быть реализуемы за 1–2 дня, без программирования, только через браузер или простые приложения.</div>
-      <button class="cpb" onclick="copyText(this,'У меня есть детектор жестов (👍 👎 ✌️) обученный на Teachable Machine. Придумай 10 нестандартных применений этого детектора для школьников 12–17 лет. Идеи должны быть реализуемы за 1–2 дня, без программирования, только через браузер или простые приложения.')" style="background:var(--orange);color:var(--dk)">📋 Скопировать</button>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     S8: ПРОМПТЫ — ПРЕЗЕНТАЦИЯ И ДОКУМЕНТАЦИЯ
-     ============================================================ -->
-<section class="slide" id="s8">
-  <div class="inn">
-    <span class="ey a1">Промпты · Документация</span>
-    <h2 class="tlg a2" style="margin-top:12px">Промпты для <span style="color:var(--pr)">презентации</span></h2>
-    <div class="dv a2"></div>
-    <div class="g2 a3">
-      <div>
-        <div class="prompt-box ru">
-          <div class="lang-flag">🇷🇺 Русский · Описание для Discord</div>
-          <div class="prompt-text">Помоги написать короткий пост (3–4 предложения) для Discord о моём AI-проекте. Я обучил детектор [ЧТО РАСПОЗНАЁТ] с точностью [X]%. Вот что интересного я заметил: [НАПИШИ СВОЁ НАБЛЮДЕНИЕ]. Пост должен звучать как рассказ от первого лица, с эмодзи и хештегом #AIVision.</div>
-          <button class="cpb" onclick="copyText(this,'Помоги написать короткий пост (3–4 предложения) для Discord о моём AI-проекте. Я обучил детектор [ЧТО РАСПОЗНАЁТ] с точностью [X]%. Вот что интересного я заметил: [НАПИШИ СВОЁ НАБЛЮДЕНИЕ]. Пост должен звучать как рассказ от первого лица, с эмодзи и хештегом #AIVision.')">📋 Скопировать</button>
-        </div>
-      </div>
-      <div>
-        <div class="prompt-box en">
-          <div class="lang-flag" style="color:var(--green)">🇬🇧 English · Discord Post</div>
-          <div class="prompt-text">Help me write a short post (3–4 sentences) for Discord about my AI project. I trained a detector for [WHAT IT DETECTS] with [X]% accuracy. Here's something interesting I noticed: [YOUR OBSERVATION]. The post should sound like a first-person story, include emojis and the hashtag #AIVision.</div>
-          <button class="cpb" onclick="copyText(this,'Help me write a short post (3–4 sentences) for Discord about my AI project. I trained a detector for [WHAT IT DETECTS] with [X]% accuracy. Here\'s something interesting I noticed: [YOUR OBSERVATION]. The post should sound like a first-person story, include emojis and the hashtag #AIVision.')" style="background:var(--green);color:var(--dk)">📋 Скопировать</button>
-        </div>
-        <div class="tip-box" style="margin-top:12px">
-          🏆 Выложи скриншот своего детектора в Discord → ветка #homework-урок0-3 с хештегом <strong>#AIVision</strong>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================
-     S9: ЗАДАНИЕ 1 — РАУНД 1 ЭМОЦИИ (ЛЁГКОЕ)
      ============================================================ -->
 <section class="slide" id="s9">
   <div class="inns">
@@ -1390,6 +1276,35 @@ textarea.ta:focus{border-color:var(--pr)}
 
 <!-- ============================================================
      S13: ЗАДАНИЕ 5 — СВОЙ-ЧУЖОЙ
+     ============================================================ -->
+<section class="slide s7-bg" id="s7">
+  <div class="inn">
+    <span class="ey a1" style="color:var(--cv-blue)">Промпты · Улучшение</span>
+    <h2 class="tlg a2" style="margin-top:12px;color:#fff">Промпты для <span style="color:var(--ac)">отладки</span></h2>
+    <div class="dv a2"></div>
+
+    <div class="prompt-box a3" style="background:rgba(255,255,255,.05);border-color:rgba(0,180,216,.3);border-left:4px solid var(--cv-blue)">
+      <div class="lang-flag" style="color:var(--cv-blue)">🇷🇺 Русский · Отладка модели</div>
+      <div class="prompt-text" style="color:rgba(255,255,255,.85)">Моя Teachable Machine-модель путает жест 👍 и ✌️. Точность для класса «Лайк» — около 60%, для «Победа» — около 55%. Я записал по 35 примеров каждого жеста, все при одинаковом освещении и с одной позиции. Объясни почему модель ошибается и дай 5 конкретных советов как улучшить датасет.</div>
+      <button class="cpb" onclick="copyText(this,'Моя Teachable Machine-модель путает жест 👍 и ✌️. Точность для класса «Лайк» — около 60%, для «Победа» — около 55%. Я записал по 35 примеров каждого жеста, все при одинаковом освещении и с одной позиции. Объясни почему модель ошибается и дай 5 конкретных советов как улучшить датасет.')">📋 Скопировать</button>
+    </div>
+
+    <div class="prompt-box a4" style="background:rgba(255,255,255,.05);border-color:rgba(46,213,115,.3);border-left:4px solid var(--green)">
+      <div class="lang-flag" style="color:var(--green)">🇬🇧 English · Model Debugging</div>
+      <div class="prompt-text" style="color:rgba(255,255,255,.85)">My Teachable Machine model confuses 👍 and ✌️ gestures. Accuracy for "Like" class is ~60%, for "Victory" ~55%. I recorded about 35 samples each, all with the same lighting and one camera position. Explain why the model is making errors and give me 5 specific tips to improve the dataset.</div>
+      <button class="cpb" onclick="copyText(this,'My Teachable Machine model confuses 👍 and ✌️ gestures. Accuracy for Like class is ~60%, for Victory ~55%. I recorded about 35 samples each, all with the same lighting and one camera position. Explain why the model is making errors and give me 5 specific tips to improve the dataset.')" style="background:var(--green);color:var(--dk)">📋 Скопировать</button>
+    </div>
+
+    <div class="prompt-box a5" style="background:rgba(255,255,255,.05);border-color:rgba(255,165,2,.3);border-left:4px solid var(--orange)">
+      <div class="lang-flag" style="color:var(--orange)">🇷🇺 Русский · Идеи применения</div>
+      <div class="prompt-text" style="color:rgba(255,255,255,.85)">У меня есть детектор жестов (👍 👎 ✌️) обученный на Teachable Machine. Придумай 10 нестандартных применений этого детектора для школьников 12–17 лет. Идеи должны быть реализуемы за 1–2 дня, без программирования, только через браузер или простые приложения.</div>
+      <button class="cpb" onclick="copyText(this,'У меня есть детектор жестов (👍 👎 ✌️) обученный на Teachable Machine. Придумай 10 нестандартных применений этого детектора для школьников 12–17 лет. Идеи должны быть реализуемы за 1–2 дня, без программирования, только через браузер или простые приложения.')" style="background:var(--orange);color:var(--dk)">📋 Скопировать</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     S8: ПРОМПТЫ — ПРЕЗЕНТАЦИЯ И ДОКУМЕНТАЦИЯ
      ============================================================ -->
 <section class="slide" id="s13">
   <div class="inns">
@@ -1873,7 +1788,7 @@ textarea.ta:focus{border-color:var(--pr)}
 // CORE
 // ============================================================
 let totalXP = 0;
-const TOTAL_SLIDES = 30;
+const TOTAL_SLIDES = 28;
 
 function aXP(n){
   totalXP += n;
